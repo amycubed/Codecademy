@@ -1,0 +1,16 @@
+//KELVIN TO FARANHEIT CONVERTER
+//today's temperature
+const kelvin = 300;
+//declaring celsius variable and subtracting 273 from kelvin to obtain celsius amount
+let celsius = kelvin - 273;
+//determine faranheit
+let faranheit = celsius * (9/5)+32;
+//rounding down the result of celsius to faranheit conversion
+faranheit = Math.floor(faranheit);
+console.log(`The temperature is ${faranheit} degrees Faranheit.`); 
+
+//CELSIUS TO NEWTON CONVERTER
+const celsius = 25;
+let newton = celsius * (33/100);
+newton = Math.floor(newton);
+console.log(`The temperature is ${newton} degrees Newton.`);
